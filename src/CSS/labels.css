@@ -1,0 +1,154 @@
+/* ------------------------------- ROOT ELEMENT STYLES -------------------------------- */
+.root {
+    -fx-background-color: #232323;
+    -fx-min-height: 650px;
+    -fx-min-width: 950px;
+    -fx-background-size: inherit;
+}
+
+/* ----------------------------------- LABEL STYLES ----------------------------------- */
+
+#lblCopyright {
+    -fx-pref-width: 1920px;
+    -fx-pref-height: 40px;
+    -fx-font-size: 16px;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-text-fill: white;
+    -fx-font-family: system;
+}
+
+#lblCreditsLabel {
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-pref-width: 800px;
+    -fx-pref-height: 150px;
+    -fx-font-size: 18px;
+    -fx-background-color: #0cac00;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-font-family: system;
+}
+
+#lblCredits {
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-pref-width: 800px;
+    -fx-pref-height: 150px;
+    -fx-font-size: 18px;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+    -fx-font-family: system;
+}
+
+#lblBetLabel {
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-pref-width: 800px;
+    -fx-pref-height: 150px;
+    -fx-font-size: 19px;
+    -fx-background-color: #f61e30;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-font-family: system;
+}
+
+#lblBet {
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-pref-width: 800px;
+    -fx-pref-height: 150px;
+    -fx-font-size: 19px;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+    -fx-font-family: system;
+}
+
+#reelLabels {
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-pref-height: 250px;
+    -fx-pref-width: 800px;
+    -fx-border-color: #232323;
+    -fx-background-color: #ffffff;
+    -fx-effect: dropshadow(two-pass-box, black, 4, 1, 1, 1);
+}
+
+#lblResult {
+    -fx-pref-width: 1800px;
+    -fx-pref-height: 55px;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+}
+
+#lblMessage {
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-pref-width: 900px;
+    -fx-pref-height: 35px;
+    -fx-font-size: 18px;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bolder;
+    -fx-font-family: system;
+}
+
+/* ------------------------------------- STATISTICS STYLES ------------------------------------- */
+
+#lblStats {
+
+    -fx-background-color: linear-gradient(burlywood, #fff9b0);
+    -fx-text-fill: #000000;
+    -fx-font-family: CONSOLAS;
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+    -fx-alignment: center;
+    -fx-pref-width: 800px;
+    -fx-pref-height: 30px;
+    -fx-background-radius: 5px;
+}
+
+#statsTitle {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-family: system;
+    -fx-font-size: 25px;
+    -fx-alignment: center;
+    -fx-pref-width: 800px;
+    -fx-pref-height: 30px;
+}
+
+#lblSAvg {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+    -fx-font-family: system;
+    -fx-font-size: 18px;
+    -fx-alignment: center;
+    -fx-pref-width: 800px;
+    -fx-pref-height: 40px;
+    -fx-background-radius: 5px;
+}
+
+#lblSResult {
+    -fx-background-color: #30c928;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+    -fx-font-family: system;
+    -fx-font-size: 17px;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-pref-width: 600px;
+    -fx-pref-height: 40px;
+    -fx-background-radius: 5px;
+}
+
+#chart {
+    -fx-pref-width: 410px;
+    -fx-pref-height: 510px;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-padding: 20px;
+    -fx-background-radius: 5px;
+}

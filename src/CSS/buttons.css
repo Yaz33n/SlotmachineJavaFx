@@ -1,0 +1,54 @@
+.root {
+    -fx-background-color: #ffffff;
+    -fx-min-height: 650px;
+    -fx-min-width: 950px;
+}
+
+#textBox {
+    -fx-pref-height: 35px;
+    -fx-font-family: system;
+    -fx-font-size: 17px;
+}
+
+.button {
+    -fx-pref-width: 800px;
+    -fx-pref-height: 80px;
+    -fx-background-color: #ffffff;
+    -fx-border-radius: 8px;
+    -fx-font-family: system;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-text-alignment: center;
+    -fx-focus-traversable: false;
+}
+
+.button:hover {
+    -fx-background-color: #ff1142;
+    -fx-text-fill: white;
+    -fx-scale-z: 1.04;
+    -fx-scale-y: 1.03;
+    -fx-scale-x: 1.03;
+}
+
+.button:pressed {
+    -fx-background-color: #ba1723;
+}
+
+#playButton {
+    -fx-pref-width: 800px;
+    -fx-pref-height: 80px;
+    -fx-background-color: #232323;
+    -fx-border-radius: 8px;
+    -fx-font-family: system;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-text-alignment: center;
+    -fx-focus-traversable: false;
+}
+
+#playButton:hover {
+    -fx-background-color: #5a5d54;
+    -fx-text-fill: white;
+}
